@@ -1,0 +1,26 @@
+.header {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    &-wrapper {
+        padding: 1rem;
+        max-width: 1200px;
+        margin: auto;
+    }
+    &-logo {
+        max-width: 60%;
+    }
+}
+
+.navUser--action {
+    text-decoration: none;
+    text-transform: uppercase;
+    &:visited {
+        color: $dark;
+    }
+    svg {
+        font-size: 20px;
+        vertical-align: middle;
+    }
+    &:nth-child(2) {
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.start {
+    justify-content: start;
+}
+
+.col-3-lg {
+    grid-template-columns: repeat(3, calc(100vw / 3));
+}
+
+.col-8-md {
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.justify {
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.dark {
+    color: $dark;
+}
